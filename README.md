@@ -26,6 +26,7 @@ This is a simple To-Do List application that allows users to manage their tasks.
 ```
 git clone https://github.com/spm999/Ai-Certs
 cd Ai-Certs
+cd server
 
 ```
 
