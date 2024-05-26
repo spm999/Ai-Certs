@@ -1,0 +1,151 @@
+/* TaskForm */
+.task-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .task-form-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-input,
+  .form-textarea,
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-textarea {
+    height: 100px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    align-self: center;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+  /* ////////////////////////// */
+
+  /* TodoList.css */
+
+.todo-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .todo-list-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-task-button {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .create-task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+  
+  .task-title {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  
+  .task-due-date {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .task-status {
+    margin: 0 0 10px;
+  }
+  
+  .edit-task-button,
+  .delete-task-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-task-button {
+    background-color: #28a745;
+  }
+  
+  .edit-task-button:hover {
+    background-color: #218838;
+  }
+  
+  .delete-task-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-task-button:hover {
+    background-color: #c82333;
+  }
+  
