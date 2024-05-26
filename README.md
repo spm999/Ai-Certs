@@ -24,8 +24,8 @@ This is a simple To-Do List application that allows users to manage their tasks.
 **Clone the repository** :
 
 ```
-git clone <repository-url>
-cd todo-api
+git clone https://github.com/spm999/Ai-Certs
+cd Ai-Certs
 
 ```
 
@@ -80,7 +80,7 @@ app/
       TaskList.js       # Component for displaying the list of tasks
       TaskForm.js       # Component for creating and editing tasks
     api.js              # API functions to interact with the backend
-    App.js              # Main application componentUsage
+    App.js              # Main application component tUsage
 ```
 
 ```
@@ -90,7 +90,7 @@ server/
 
 1. **Viewing Tasks** :
 
-* Visit `http://localhost:5172` to view the list of tasks.
+* Visit `http://localhost:5173` to view the list of tasks.
 * Click the "Create Task" button to navigate to the task creation form.
 * Click the "Edit" button next to a task to navigate to the task editing form.
 
